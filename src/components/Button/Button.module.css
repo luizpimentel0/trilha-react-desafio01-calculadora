@@ -1,0 +1,32 @@
+.button {
+  padding: 1.25rem;
+  border: none;
+  border: 1px solid #222; 
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #333;
+
+  cursor: pointer;
+  transition: background .2s;
+}
+
+.button:hover {
+  opacity: .5;
+}
+
+.equalBtn {
+  background-color:#4A30F2;
+  /* color: #333; */
+  grid-row: span 2;
+
+  transition: opacity .3s;
+}
+
+.equalBtn:hover {
+  opacity: .5;
+}
+
+.twoColumns {
+  grid-column: 1 / 3;
+}
